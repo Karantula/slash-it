@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class knight : MonoBehaviour {
 
-    public bool isMoving;
-
-    bool facingRight;
-
     float speed = 1.0f;
 
     public Animator m_Animator;
@@ -19,12 +15,8 @@ public class knight : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
 
-        
         SimpleMoves();
-        
-        
 
     }
 
